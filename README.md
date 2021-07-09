@@ -9,6 +9,6 @@
 - wav.h:
     - 	給 wav.cpp 用的標頭檔，定義 .wav 檔的格式
 
-我的做法是將 k = frequency[i]/MYFREQ 找到差的倍率
-然後再用一個陣列source_process先把資料處理好
-把source的資料放k次 在進行取樣 產生頻率的不同
+我的做法是將 k = frequency[i]/MYFREQ 找到差的倍率  
+然後再用一個陣列source_process先把資料處理好  
+把source的資料放k次 在進行取樣 產生頻率的不同  
